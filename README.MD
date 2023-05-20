@@ -10,7 +10,7 @@ Also provided in a sample application in which you need to fill out the `App.con
 
 Download and install docker desktop `https://www.docker.com/products/docker-desktop/`
 
-To build the base image with the SDK install and registry entries, open a terminal in the root of the project and run. 
+To build the base image with the SDK install and registry entries, open a terminal in the root of the repo and run. 
 
 ```
 docker build --pull --rm -f "src\Dockerfile" -t encompasssdk:latest "src"
